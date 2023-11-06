@@ -6,10 +6,10 @@ class TwoSums {
         nums.forEachIndexed { index, item ->
             val complement = target - item
             if (map.containsKey(complement)) {
-               return intArrayOf(
-                   index,
-                   map[complement]!!
-               )
+                return intArrayOf(
+                    index,
+                    map[complement]!!
+                )
             }
             map[item] = index
         }
