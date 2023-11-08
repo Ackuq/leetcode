@@ -1,6 +1,6 @@
-import org.junit.jupiter.api.Test
 import utils.ListNode
 import kotlin.test.assertEquals
+import kotlin.test.Test
 
 class AddTwoNumbersTest {
     private val subject = AddTwoNumbers()
@@ -9,8 +9,8 @@ class AddTwoNumbersTest {
     fun example1() {
         val expected = ListNode.fromList(listOf(7, 0, 8))
         val actual = subject.addTwoNumbers(
-            ListNode.fromList(listOf(2,4,3)),
-            ListNode.fromList(listOf(5,6,4))
+            ListNode.fromList(listOf(2, 4, 3)),
+            ListNode.fromList(listOf(5, 6, 4))
         )
         assertEquals(expected.toString(), actual.toString())
     }
@@ -27,20 +27,20 @@ class AddTwoNumbersTest {
 
     @Test
     fun example3() {
-        val expected = ListNode.fromList(listOf(8,9,9,9,0,0,0,1))
+        val expected = ListNode.fromList(listOf(8, 9, 9, 9, 0, 0, 0, 1))
         val actual = subject.addTwoNumbers(
-            ListNode.fromList(listOf(9,9,9,9,9,9,9)),
-            ListNode.fromList(listOf(9,9,9,9))
+            ListNode.fromList(listOf(9, 9, 9, 9, 9, 9, 9)),
+            ListNode.fromList(listOf(9, 9, 9, 9))
         )
         assertEquals(expected.toString(), actual.toString())
     }
 
     @Test
     fun example4() {
-        val expected = ListNode.fromList(listOf(0,0,0,0,0,0,0,0,0,0,1))
+        val expected = ListNode.fromList(listOf(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1))
         val actual = subject.addTwoNumbers(
             ListNode.fromList(listOf(9)),
-            ListNode.fromList(listOf(1,9,9,9,9,9,9,9,9,9))
+            ListNode.fromList(listOf(1, 9, 9, 9, 9, 9, 9, 9, 9, 9))
         )
         assertEquals(expected.toString(), actual.toString())
     }

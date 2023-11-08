@@ -1,4 +1,4 @@
-import org.junit.jupiter.api.Test
+import kotlin.test.Test
 import kotlin.test.assertContentEquals
 
 class TwoSumsTest {
@@ -7,7 +7,7 @@ class TwoSumsTest {
     @Test
     fun example1() {
         val expected = intArrayOf(1, 0)
-        val nums = intArrayOf(2,7,11,15)
+        val nums = intArrayOf(2, 7, 11, 15)
         val target = 9
         val result = subject.twoSum(nums, target)
 
@@ -17,7 +17,7 @@ class TwoSumsTest {
     @Test
     fun example2() {
         val expected = intArrayOf(2, 1)
-        val nums = intArrayOf(3,2,4)
+        val nums = intArrayOf(3, 2, 4)
         val target = 6
         val result = subject.twoSum(nums, target)
 
@@ -27,7 +27,7 @@ class TwoSumsTest {
     @Test
     fun example3() {
         val expected = intArrayOf(1, 0)
-        val nums = intArrayOf(3,3)
+        val nums = intArrayOf(3, 3)
         val target = 6
         val result = subject.twoSum(nums, target)
 

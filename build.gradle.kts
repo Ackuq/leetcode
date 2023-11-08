@@ -14,10 +14,6 @@ dependencies {
     testImplementation(kotlin("test"))
 }
 
-tasks.test {
-    useJUnitPlatform()
-}
-
 kotlin {
-    jvmToolchain(8)
+    jvmToolchain(21)
 }
