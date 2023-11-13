@@ -1,4 +1,4 @@
-class ZigZag {
+class Solution6 {
     /**
      * 1 row:
      *  ABCD

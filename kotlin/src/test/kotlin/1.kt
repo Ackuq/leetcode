@@ -1,8 +1,8 @@
 import kotlin.test.Test
 import kotlin.test.assertContentEquals
 
-class TwoSumsTest {
-    private val subject = TwoSums()
+class Solution1Test {
+    private val subject = Solution1()
 
     @Test
     fun example1() {

@@ -1,6 +1,4 @@
-import java.lang.NumberFormatException
-
-class PalindromeNumbers {
+class Solution9 {
     private fun isPalindrome(s: String): Boolean {
         var left = 0
         var right = s.length - 1

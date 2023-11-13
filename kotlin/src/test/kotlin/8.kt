@@ -1,8 +1,8 @@
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
-class AtoiTest {
-    private val subject = Atoi()
+class Solution8Test {
+    private val subject = Solution8()
 
     @Test
     fun example1() {

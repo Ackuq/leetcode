@@ -1,4 +1,4 @@
-class RegexMatching {
+class Solution10 {
     enum class Quantity {
         ONE, STAR
     }

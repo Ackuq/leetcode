@@ -1,8 +1,8 @@
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
-class MedianSortedArrayTest {
-    private val subject = MedianSortedArray()
+class Solution4Test {
+    private val subject = Solution4()
 
     @Test
     fun example1() {

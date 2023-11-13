@@ -1,6 +1,6 @@
 import java.lang.NumberFormatException
 
-class ReverseInteger {
+class Solution7 {
     fun reverse(x: Int): Int {
         val isNegative = x < 0
         try {

@@ -1,4 +1,4 @@
-class MedianSortedArray {
+class Solution4 {
     fun findMedianSortedArrays(nums1: IntArray, nums2: IntArray): Double {
         return binarySearch(nums1, nums2)
     }

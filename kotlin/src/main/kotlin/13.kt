@@ -1,4 +1,4 @@
-class RomanToInt {
+class Solution13 {
     final val charMap = mapOf(
         'I' to 1,
         'V' to 5,

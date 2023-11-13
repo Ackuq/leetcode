@@ -1,4 +1,4 @@
-class IntToRoman {
+class Solution12 {
     private final val charMap = listOf(
         1000 to "M",
         900 to "CM",

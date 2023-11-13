@@ -1,6 +1,6 @@
 import java.lang.NumberFormatException
 
-class Atoi {
+class Solution8 {
     fun myAtoi(s: String): Int {
         // 1. Read in and ignore any leading whitespace.
         val trimmed = s.trim()

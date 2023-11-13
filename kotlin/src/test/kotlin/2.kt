@@ -2,8 +2,8 @@ import utils.ListNode
 import kotlin.test.assertEquals
 import kotlin.test.Test
 
-class AddTwoNumbersTest {
-    private val subject = AddTwoNumbers()
+class Solution2Test {
+    private val subject = Solution2()
 
     @Test
     fun example1() {

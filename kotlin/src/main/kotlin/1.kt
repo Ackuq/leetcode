@@ -1,6 +1,6 @@
 import java.lang.Error
 
-class TwoSums {
+class Solution1 {
     fun twoSum(nums: IntArray, target: Int): IntArray {
         val map = mutableMapOf<Int, Int>()
         nums.forEachIndexed { index, item ->

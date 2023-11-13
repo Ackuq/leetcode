@@ -1,8 +1,8 @@
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
-class RomanToIntTest {
-    private val subject = RomanToInt()
+class Solution13Test {
+    private val subject = Solution13()
 
     @Test
     fun example1() {

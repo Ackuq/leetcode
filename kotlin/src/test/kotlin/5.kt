@@ -1,8 +1,8 @@
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
-class LongestPalindromicSubstringTest {
-    private val subject = LongestPalindromicSubstring()
+class Solution5Test {
+    private val subject = Solution5()
 
     @Test
     fun example1() {

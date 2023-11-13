@@ -1,8 +1,8 @@
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
-class RegexMatchingTest {
-    private val subject = RegexMatching()
+class Solution10Test {
+    private val subject = Solution10()
 
     @Test
     fun example1() {

@@ -1,8 +1,8 @@
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
-class ReverseIntegerTest {
-    private val subject = ReverseInteger()
+class Solution7Test {
+    private val subject = Solution7()
 
     @Test
     fun example1() {

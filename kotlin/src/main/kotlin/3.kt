@@ -1,4 +1,4 @@
-class LongestSubstring {
+class Solution3 {
     fun lengthOfLongestSubstring(s: String): Int {
         var max = 0
 

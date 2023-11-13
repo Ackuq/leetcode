@@ -1,7 +1,7 @@
 import kotlin.math.abs
 import kotlin.math.min
 
-class ContainerWithMostWater {
+class Solution11 {
     private fun calculateArea(a: IndexedValue<Int>, b: IndexedValue<Int>): Int {
         val height = min(a.value, b.value)
         val width = abs(a.index - b.index)

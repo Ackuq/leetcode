@@ -1,8 +1,8 @@
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
-class ContainerWithMostWaterTest {
-    private val subject = ContainerWithMostWater()
+class Solution11Test {
+    private val subject = Solution11()
 
     @Test
     fun example1() {

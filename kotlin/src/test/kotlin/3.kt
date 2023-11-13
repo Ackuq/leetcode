@@ -1,8 +1,8 @@
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
-class LongestSubstringTest {
-    private val subject = LongestSubstring()
+class Solution3Test {
+    private val subject = Solution3()
 
     @Test
     fun example1() {

@@ -1,6 +1,6 @@
 import utils.ListNode
 
-class AddTwoNumbers {
+class Solution2 {
     fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
         val head = ListNode()
         var node1 = l1
