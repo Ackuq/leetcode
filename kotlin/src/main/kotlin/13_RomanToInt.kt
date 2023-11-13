@@ -9,6 +9,9 @@ class RomanToInt {
         'M' to 1000
     )
 
+    /**
+     * Rules that determine what characters can be placed before which.
+     */
     final val rules = mapOf(
         'I' to setOf('V', 'X'),
         'X' to setOf('L', 'C'),
