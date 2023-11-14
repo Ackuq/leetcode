@@ -1,6 +1,6 @@
 import "./2619";
 
-describe("2617. Array Prototype Last", () => {
+describe("2619. Array Prototype Last", () => {
   it("example 1", () => {
     const nums = [null, {}, 3];
     const actual = nums.last();
