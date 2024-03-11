@@ -2,30 +2,23 @@ use std::vec;
 
 struct Solution;
 impl Solution {
-    pub fn generate_parenthesis_rec(rest: i32, opened: i32, acc: String) -> Vec<String> {
+    pub fn generate_parenthesis_rec(rest: i32, opened: i32, acc: String, result: &mut Vec<String>) {
         if rest == 0 && opened == 0 {
-            return vec![acc];
+            result.push(acc);
+            return;
         }
-        let mut result: Vec<String> = Vec::new();
         if opened > 0 {
-            result.append(&mut Self::generate_parenthesis_rec(
-                rest,
-                opened - 1,
-                acc.clone() + ")",
-            ))
+            Self::generate_parenthesis_rec(rest, opened - 1, acc.clone() + ")", result)
         }
         if rest > 0 {
-            result.append(&mut Self::generate_parenthesis_rec(
-                rest - 1,
-                opened + 1,
-                acc.clone() + "(",
-            ))
+            Self::generate_parenthesis_rec(rest - 1, opened + 1, acc.clone() + "(", result)
         }
-        result
     }
 
     pub fn generate_parenthesis(n: i32) -> Vec<String> {
-        Self::generate_parenthesis_rec(n, 0, String::new())
+        let mut result: Vec<String> = vec![];
+        Self::generate_parenthesis_rec(n, 0, String::new(), &mut result);
+        result
     }
 }
 
