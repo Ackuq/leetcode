@@ -1,3 +1,5 @@
+#[cfg(test)]
+use crate::util::list::list_node;
 use crate::util::list::ListNode;
 
 struct Solution;
@@ -25,15 +27,9 @@ impl Solution {
 
 #[test]
 fn test() {
-    let list1 = ListNode::link(1, ListNode::link(2, ListNode::new(4)));
-    let list2 = ListNode::link(1, ListNode::link(3, ListNode::new(4)));
-    let expected = ListNode::link(
-        1,
-        ListNode::link(
-            1,
-            ListNode::link(2, ListNode::link(3, ListNode::link(4, ListNode::new(4)))),
-        ),
-    );
+    let list1 = list_node!(1, 2, 4);
+    let list2 = list_node!(1, 3, 4);
+    let expected = list_node!(1, 1, 2, 3, 4, 4);
     let actual = Solution::merge_two_lists(list1, list2);
     assert_eq!(actual, expected)
 }

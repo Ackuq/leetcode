@@ -4,16 +4,25 @@ pub struct ListNode {
     pub next: Option<Box<ListNode>>,
 }
 
-type ListLink = Option<Box<ListNode>>;
-
 impl ListNode {
     #[inline]
-    pub fn new(val: i32) -> ListLink {
-        Some(Box::new(ListNode { val, next: None }))
-    }
-
-    #[inline]
-    pub fn link(val: i32, next: ListLink) -> ListLink {
+    pub fn link(val: i32, next: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
         Some(Box::new(ListNode { val, next }))
     }
 }
+
+#[macro_export]
+macro_rules! list_node {
+    () => {
+        None as Option<Box<ListNode>>
+    };
+    ($e:expr) => {
+        ListNode::link($e, None)
+    };
+    ($e:expr, $($tail:tt)*) => {
+        ListNode::link($e, list_node!($($tail)*))
+    };
+}
+
+#[cfg(test)]
+pub(crate) use list_node;
