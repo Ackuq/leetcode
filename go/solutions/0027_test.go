@@ -3,14 +3,14 @@ package solutions
 import "testing"
 
 func removeElement(nums []int, val int) int {
-	new_index := 0
+	newIndex := 0
 	for _, num := range nums {
 		if num != val {
-			nums[new_index] = num
-			new_index += 1
+			nums[newIndex] = num
+			newIndex += 1
 		}
 	}
-	return new_index
+	return newIndex
 }
 
 func TestRemoveElement1(t *testing.T) {

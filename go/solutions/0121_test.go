@@ -9,9 +9,9 @@ func maxProfit(prices []int) int {
 			buy = prices[i]
 			continue
 		}
-		temp_profit := prices[i] - buy
-		if temp_profit > profit {
-			profit = temp_profit
+		tempProfit := prices[i] - buy
+		if tempProfit > profit {
+			profit = tempProfit
 		}
 	}
 	return profit
