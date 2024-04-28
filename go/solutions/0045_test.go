@@ -5,30 +5,30 @@ import (
 	"testing"
 )
 
-func jumpDynamic(i int, nums *[]int, memory *map[int]int) int {
+func jumpDynamic(i int, nums []int, memory map[int]int) int {
 	// Base case: we are at the end
-	if i == len(*nums)-1 {
+	if i == len(nums)-1 {
 		return 0
 	}
-	if value, ok := (*memory)[i]; ok {
+	if value, ok := memory[i]; ok {
 		return value
 	}
 
 	min := math.MaxInt16 - 1
-	for j := 1; j <= (*nums)[i] && j+i < len(*nums); j++ {
+	for j := 1; j <= nums[i] && j+i < len(nums); j++ {
 		result := 1 + jumpDynamic(i+j, nums, memory)
 		if result < min {
 			min = result
 		}
 	}
-	(*memory)[i] = min
+	memory[i] = min
 	return min
 }
 
 func jump(nums []int) int {
 	// Memory of number of jumps from index to end
 	memory := map[int]int{}
-	return jumpDynamic(0, &nums, &memory)
+	return jumpDynamic(0, nums, memory)
 }
 
 func TestJump1(t *testing.T) {
