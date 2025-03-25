@@ -6,14 +6,7 @@
       "source.organizeImports": "explicit"
     }
   },
-  "isort.importStrategy": "fromEnvironment",
-  "flake8.importStrategy": "fromEnvironment",
-  "black-formatter.importStrategy": "fromEnvironment",
-  "mypy-type-checker.importStrategy": "fromEnvironment",
   "python.terminal.activateEnvironment": true,
   "flake8.cwd": "${workspaceFolder}/python",
-  "mypy-type-checker.cwd": "${workspaceFolder}/python",
-  "github.copilot.enable": {
-    "*": false
-  }
+  "mypy-type-checker.cwd": "${workspaceFolder}/python"
 }
