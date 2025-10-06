@@ -6,7 +6,19 @@
       "source.organizeImports": "explicit"
     }
   },
+  "github.copilot.enable": {
+    "cpp": false,
+    "python": false,
+    "typescript": false,
+    "shellscript": false,
+    "kotlin": false,
+    "rust": false
+  },
+  "C_Cpp.clang_format_fallbackStyle": "Google",
   "python.terminal.activateEnvironment": true,
   "flake8.cwd": "${workspaceFolder}/python",
-  "mypy-type-checker.cwd": "${workspaceFolder}/python"
+  "mypy-type-checker.cwd": "${workspaceFolder}/python",
+  "files.associations": {
+    "string": "cpp"
+  }
 }

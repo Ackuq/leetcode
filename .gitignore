@@ -1,1 +1,9 @@
 .DS_Store
+
+# C++ files
+*.dSYM
+*.out
+
+# VSCode settings
+.vscode/
+!.vscode/settings.json
