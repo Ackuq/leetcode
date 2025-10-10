@@ -1,5 +1,8 @@
 .DS_Store
 
+# Intellij IDEA files
+.idea/
+
 # C++ files
 *.dSYM
 *.out
