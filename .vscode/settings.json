@@ -19,6 +19,19 @@
   "flake8.cwd": "${workspaceFolder}/python",
   "mypy-type-checker.cwd": "${workspaceFolder}/python",
   "files.associations": {
-    "string": "cpp"
+    "string": "cpp",
+    "__bit_reference": "cpp",
+    "__config": "cpp",
+    "__hash_table": "cpp",
+    "__tree": "cpp",
+    "map": "cpp",
+    "set": "cpp",
+    "string_view": "cpp",
+    "unordered_map": "cpp",
+    "__split_buffer": "cpp",
+    "array": "cpp",
+    "deque": "cpp",
+    "initializer_list": "cpp",
+    "vector": "cpp"
   }
 }
