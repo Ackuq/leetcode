@@ -33,6 +33,7 @@
     "deque": "cpp",
     "initializer_list": "cpp",
     "vector": "cpp",
-    "istream": "cpp"
+    "istream": "cpp",
+    "bitset": "cpp"
   }
 }
