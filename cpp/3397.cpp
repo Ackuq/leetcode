@@ -4,16 +4,13 @@
 using namespace std;
 
 class Solution {
-public:
-  int maxDistinctElements(vector<int> &nums, int k) {
+ public:
+  int maxDistinctElements(vector<int>& nums, int k) {
     sort(nums.begin(), nums.end());
     int count = 0;
     int prev = INT_MIN;
-    for (auto num: nums) {
-      auto curr = min(
-        max(num - k, prev + 1),
-        num + k
-      );
+    for (auto num : nums) {
+      auto curr = min(max(num - k, prev + 1), num + k);
       if (curr > prev) {
         prev = curr;
         count++;
