@@ -32,6 +32,7 @@
     "array": "cpp",
     "deque": "cpp",
     "initializer_list": "cpp",
-    "vector": "cpp"
+    "vector": "cpp",
+    "istream": "cpp"
   }
 }
