@@ -62,6 +62,8 @@
     "ios": "cpp",
     "mutex": "cpp",
     "ratio": "cpp",
-    "streambuf": "cpp"
+    "streambuf": "cpp",
+    "iostream": "cpp",
+    "sstream": "cpp"
   }
 }
