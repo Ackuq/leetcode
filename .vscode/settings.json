@@ -69,6 +69,8 @@
     "queue": "cpp",
     "stack": "cpp",
     "random": "cpp",
-    "version": "cpp"
+    "version": "cpp",
+    "complex": "cpp",
+    "algorithm": "cpp"
   }
 }
