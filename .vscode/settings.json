@@ -64,6 +64,9 @@
     "ratio": "cpp",
     "streambuf": "cpp",
     "iostream": "cpp",
-    "sstream": "cpp"
+    "sstream": "cpp",
+    "unordered_set": "cpp",
+    "queue": "cpp",
+    "stack": "cpp"
   }
 }
