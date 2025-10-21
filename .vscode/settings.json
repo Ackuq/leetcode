@@ -71,6 +71,7 @@
     "random": "cpp",
     "version": "cpp",
     "complex": "cpp",
-    "algorithm": "cpp"
+    "algorithm": "cpp",
+    "climits": "cpp"
   }
 }
