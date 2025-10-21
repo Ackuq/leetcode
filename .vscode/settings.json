@@ -67,6 +67,8 @@
     "sstream": "cpp",
     "unordered_set": "cpp",
     "queue": "cpp",
-    "stack": "cpp"
+    "stack": "cpp",
+    "random": "cpp",
+    "version": "cpp"
   }
 }
