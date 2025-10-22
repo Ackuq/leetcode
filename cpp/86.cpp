@@ -1,6 +1,6 @@
 #include <string>
 
-#include "./listnode.cpp"
+#include "listnode.h"
 
 using namespace std;
 

@@ -1,6 +1,6 @@
 #include <vector>
 
-#include "./treenode.cpp"
+#include "treenode.h"
 
 using namespace std;
 

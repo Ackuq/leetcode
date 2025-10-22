@@ -3,7 +3,7 @@ using namespace std;
 #include <algorithm>
 #include <climits>
 
-#include "./treenode.cpp"
+#include "treenode.h"
 
 class Solution {
  public:

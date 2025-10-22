@@ -1,5 +1,5 @@
 
-#include "./treenode.cpp";
+#include "treenode.h";
 
 class Solution {
  public:

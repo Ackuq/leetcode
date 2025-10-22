@@ -2,7 +2,7 @@
 
 #include <stdlib.h>
 
-#include "./listnode.cpp"
+#include "listnode.h"
 
 class Solution {
  public:
